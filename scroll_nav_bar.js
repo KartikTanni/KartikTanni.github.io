@@ -1,6 +1,6 @@
 var section_det=[
   ['About','282741'],
-  ['Sponsors','f6b11d'],
+  ['Partners','f6b11d'],
   ['Specials','005a31'],
   ['Developers','374258'],
   ['Heads','bc382e'],
