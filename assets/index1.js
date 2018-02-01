@@ -8,9 +8,15 @@ var circles = [];
 
 var colorPicker = (function() {
   var colors = ["#45ADA8", "#F67280", "#C06C84", "#6C5B7B"];
+  var colors1 = ["#000000"];
   var index = 0;
   function next() {
     index = index++ < colors.length-1 ? index : 0;
+        // document.getElementById('text_black_info1').style.color=colors[index];
+        // document.getElementById('text_black_info2').style.color=colors[index];
+        document.getElementById('mag_mag').style.color=colors[index];
+        document.getElementById('subtextmagno').style.color=colors[index];
+        document.getElementById('gggg').style.color=colors1[0];
     return colors[index];
   }
   function current() {
