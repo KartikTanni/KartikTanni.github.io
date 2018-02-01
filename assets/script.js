@@ -198,15 +198,19 @@ $( function() {
       //if its on top of it then bounce the dragged element and load the particular webpage
       if(i1==true){
          $( "#draggable3" ).toggle( "bounce", { times: 3 },650 );
-        location.href = 'workshops.html';
+        location.href = 'http://magnovite.net//nontechevents.html';
       }
 
       else if(i2==true){
          $( "#draggable1" ).toggle( "bounce", { times: 3 },650 );
-        location.href = 'events.html';
+        location.href = 'http://magnovite.net//techevents.html';
       }
 
+
+
       if(i3==true){
+        $( "#draggable2" ).toggle( "bounce", { times: 3 },650 );
+       location.href = 'http://magnovite.net//commingsoon.html';
       }
 
         }
