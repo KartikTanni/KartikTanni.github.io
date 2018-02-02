@@ -16,7 +16,9 @@ var colorPicker = (function() {
         // document.getElementById('text_black_info2').style.color=colors[index];
         document.getElementById('mag_mag').style.color=colors[index];
         document.getElementById('subtextmagno').style.color=colors[index];
+        document.getElementById('cufeinfo').style.color=colors[index];
         document.getElementById('body').style.background=colors[index];
+        // document.getElementById('banana').style.background=colors[index];
         document.getElementById('gggg').style.color=colors1[0];
     return colors[index];
   }
