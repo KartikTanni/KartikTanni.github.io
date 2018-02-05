@@ -31,6 +31,7 @@
     font-family: 'Roboto', sans-serif;
     margin-left: 8%;
     margin-top: 6%;
+    display: none;
 }
 .eventPop:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -57,7 +58,7 @@
 }
 .eventPopupContents{
 	width:95%;
-	height:400px;
+	height:55%;
 	margin: auto;
 	overflow-y:auto;
 	padding-right: 10px;
