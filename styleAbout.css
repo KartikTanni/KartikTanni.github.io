@@ -304,6 +304,7 @@ input[type=text], select, textarea {
 }
 .nameTxt3{
 	margin-top: 43%;
+	line-height:1.0;
 }
 .profilePic3:hover .name3 {
 	cursor: pointer;
