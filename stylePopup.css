@@ -138,3 +138,9 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.regBtn{
+	color: #FFF; 
+	height:50px;
+	float: right;
+	margin-right: 12px;
+}
