@@ -141,6 +141,7 @@ $("#tle2").click(function() {
 //initializing the parallax----------------------------
 var $html = $scene = $('#scene');
       $scene.parallax();
+
 //parallax ends ---------------------------------------
 
 //function to check if the bubble is on top of magnovite bubble (returns a boolean)--

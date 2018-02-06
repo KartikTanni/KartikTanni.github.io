@@ -7,19 +7,32 @@ var animations = [];
 var circles = [];
 
 var colorPicker = (function() {
-  var colors = ["#45ADA8", "#F67280", "#C06C84", "#6C5B7B"];
+  var colors = ["#2f9395", "#EF4566", "#355c7d", "#ff8000","#363636"];
+    var colors2 = ["#363636", "#2f9395", "#EF4566", "#355c7d","#ff8000"];
+  //var colors2 = ["#3f9e99", "#f26876", "#C06D99", "#6C5B8B"];
   var colors1 = ["#000000"];
   var index = 0;
   function next() {
     index = index++ < colors.length-1 ? index : 0;
+
         // document.getElementById('text_black_info1').style.color=colors[index];
         // document.getElementById('text_black_info2').style.color=colors[index];
         document.getElementById('mag_mag').style.color=colors[index];
         document.getElementById('subtextmagno').style.color=colors[index];
-        document.getElementById('cufeinfo').style.color=colors[index];
+         document.getElementById('custard').style.background=colors2[index];
+        document.getElementById('cufeinfo').style.color=colors2[index];
         document.getElementById('body').style.background=colors[index];
-        // document.getElementById('banana').style.background=colors[index];
-        document.getElementById('gggg').style.color=colors1[0];
+        if(index==0)
+        {
+          document.getElementById('cufeinfo').style.color="#ffffff";
+        }
+        //document.getElementById('body').style.background=colors[index];
+         //document.getElementById('grape').style.background=colors2[index];
+         // document.getElementById('apple').style.color=colors2[index];
+         //document.getElementById('mango').style.background=colors2[index];
+        //document.getElementById('banana').style.background=colors2[index];
+
+       //document.getElementById('gggg').style.color=colors2[0];
     return colors[index];
   }
   function current() {
