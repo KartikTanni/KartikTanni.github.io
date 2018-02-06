@@ -1,8 +1,8 @@
-html{
+﻿html{
   overflow: auto;
 }
 body::before {
-    background-color: #282741;
+      background-image:url("assets/background_nontech.png");
     background-size: cover;
     background-attachment: fixed;
     content: '';
@@ -15,10 +15,10 @@ body::before {
     position: fixed;
 }
 header.custom-header{
-  background-color: #282741;
+ // background-color: #282741;
 }
 .mdl-layout__header{
-  background-color: #282741;
+  //background-color: #282741;
 }
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
