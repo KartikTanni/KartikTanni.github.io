@@ -77,40 +77,64 @@
 .face-painting-pic{
 	background-image: url("images/event3.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .indian-dance-pic{
 	background-image: url("images/indian-dance.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .jam-gd-debate{
 	background-image: url("images/jam.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 .junk-designer-pic{
 	background-image: url("images/junk.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 .openmic-pic{
 	background-image: url("images/open-mic.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 .street-play-pic{
 	background-image: url("images/street-play.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 .western-dance-pic{
 	background-image: url("images/dance.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 .western-electric-pic{
 	background-image: url("images/western-electric.jpg");
 	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
