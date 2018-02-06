@@ -220,6 +220,12 @@ body .demo-blog {
 .demo-blog .quiz .mdl-card__media {
   background-image: url('images/quiz.jpg');
 }
+.demo-blog .lod .mdl-card__media {
+  background-image: url('images/lod.jpg');
+}
+.demo-blog .model-making .mdl-card__media {
+  background-image: url('images/model-making.png');
+}
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
   display: flex;

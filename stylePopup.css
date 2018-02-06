@@ -71,7 +71,12 @@
 	font-size: 1.2em;
 	text-align: justify;
 }
-
+.regBtn{
+	color: #FFF; 
+	height:50px;
+	float: right;
+	margin-right: 12px;
+}
 
 /*IMAGES*/
 .face-painting-pic{
@@ -138,9 +143,133 @@
     -o-background-size: cover;
     background-size: cover;
 }
-.regBtn{
-	color: #FFF; 
-	height:50px;
-	float: right;
-	margin-right: 12px;
+
+/*TECH EVENTS IMAGES*/
+.hackathon-pop{
+	background-image: url("images/hackathon.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.creaticity-pop{
+	background-image: url("images/smart-city.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.gaming-pop{
+	background-image: url("images/gaming.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.code-crunch-pop{
+	background-image: url("images/code-fights.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.tech-hunt-pop{
+	background-image: url("images/tech-hunt.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.rc-race-pop{
+	background-image: url("images/racing.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.line-x-pop{
+	background-image: url("images/line-x.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bridge-pop{
+	background-image: url("images/bridge.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.robo-wars-pop{
+	background-image: url("images/robo-wars.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.circuit-debugging-pop{
+	background-image: url("images/circuit.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.blueprint-pop{
+	background-image: url("images/blueprint.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.murder-mystery-pop{
+	background-image: url("images/murder.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.detect-and-avoid-pop{
+	background-image: url("images/detect.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.model-making-pop{
+	background-image: url("images/model-making.png");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.quiz-pop{
+	background-image: url("images/quiz.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.league-of-designers-pop{
+	background-image: url("images/lod.jpg");
+	background-position: center; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }

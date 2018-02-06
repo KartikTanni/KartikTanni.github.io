@@ -71,6 +71,10 @@
           document.getElementById("blueprint-pop").style.display = 'none';
           document.getElementById("murder-mystery-pop").style.display = 'none';
           document.getElementById("detect-and-avoid-pop").style.display = 'none';
+          document.getElementById("quiz-pop").style.display = 'none';
+          document.getElementById("league-of-designers-pop").style.display = 'none';
+          document.getElementById("model-making-pop").style.display = 'none';
+          //document.getElementById("detect-and-avoid-pop").style.display = 'none';
         }
         function showPopup(a){
           if(a=="a")
@@ -99,6 +103,12 @@
             document.getElementById("murder-mystery-pop").style.display = 'block';
           else if(a=="m")
             document.getElementById("detect-and-avoid-pop").style.display = 'block';
+	      else if(a=="n")
+	        document.getElementById("quiz-pop").style.display = 'block';
+	      else if(a=="o")
+	        document.getElementById("league-of-designers-pop").style.display = 'block';
+	      else if(a=="p")
+	        document.getElementById("model-making-pop").style.display = 'block';
 
         }
     </script>
@@ -778,7 +788,7 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 					<br><br>*Conditions apply. Please refer to website for details.
 				</div>
 			</div>
-			<a href="http://www.tatainnoverse.com/tatacruciblehackathon//index.php">
+			<a href="http://www.tatacrucible.com/hackathon/">
               <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style='color: #FFF;height:50px;float: right;margin-right:50px;margin-top:35px;width:150px;' >
                 Register
               </button>
@@ -2173,6 +2183,8 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 	            </button>
               </div>
             </div>
+
+
             <div class="mdl-card murder mdl-cell mdl-cell--8-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Murder Mystery</a></h3>
@@ -2191,6 +2203,8 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 	            </button>
               </div>
             </div>
+
+
             <div class="mdl-card detect mdl-cell mdl-cell--12-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Detect and Avoid</a></h3>
@@ -2210,6 +2224,70 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 	            </button>
               </div>
             </div>
+
+            <div class="mdl-card quiz mdl-cell mdl-cell--8-col">
+              <div class="mdl-card__media mdl-color-text--grey-50">
+                <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Quiz</a></h3>
+              </div>
+              <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+              	Participate to make sure you are on the right page in the book of knowledge. Your knowledge is a treasure; the more you have, the better. Put it on display and not a thing will be lost. Instead it’ll add a gem to your collection, a feather to your cap.
+			  </div>
+              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                <div class="minilogo"></div>
+                <div>
+                  <strong>Magnovite</strong>
+                  <!--span>25 of 30 registered.</span-->
+                </div>
+                <div class="mdl-layout-spacer"></div>
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="showPopup('n')">
+	                <i class="material-icons">add</i>
+	            </button>
+              </div>
+            </div>
+
+            <div class="mdl-card lod mdl-cell mdl-cell--4-col">
+              <div class="mdl-card__media mdl-color-text--grey-50">
+                <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">League of Designers</a></h3>
+              </div>
+              <div class="mdl-color-text--grey-600 mdl-card__supporting-text">
+                Are you amazed by geometry? Does the golden ratio mean more to you than a couple of fancy words? Then we present to you an event which suits your fancy. League of Designers is made for those who cannot wait to spread their wings and fly. Create your very own design and optimize it in an event which is sure to spark your imagination
+              </div>
+              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                <div class="minilogo"></div>
+                <div>
+                  <strong>Magnovite</strong>
+                  <!--span>25 of 30 registered.</span-->
+                </div>
+                <div class="mdl-layout-spacer"></div>
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="showPopup('o')">
+	                <i class="material-icons">add</i>
+	            </button>
+              </div>
+            </div>
+
+            <div class="mdl-card model-making mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__media mdl-color-text--grey-50">
+                <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Model Making</a></h3>
+              </div>
+              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                ‘Model Making’ is a podium for the students interested in crafts and design, where innovation is everything. Reuse, recycle and build. Use ice-cream sticks, chopsticks and toothpicks in the most efficient manner to build an ingenious product based on a theme given on the spot.
+              </div>
+              <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+                <div class="minilogo"></div>
+                <div>
+                  <strong>Magnovite</strong>
+                  <!--span>25 of 30 registered.</span-->
+                </div>
+                <div class="mdl-layout-spacer"></div>
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="showPopup('p')">
+	                <i class="material-icons">add</i>
+	            </button>
+              </div>
+            </div>
+
+
+
+
             </div>
             </div>
           </div>
