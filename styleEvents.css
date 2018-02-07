@@ -23,7 +23,7 @@ header.custom-header{
 @media (max-width: 512px)  and (min-resolution: 1.5dppx),
        (max-width: 1024px) and (max-resolution: 1.5dppx) {
   body::before {
-    background-image: url('assets/event-bg.jpg');
+    background-image: url('assets/background_nontech.png');
   }
 }
 #more{
