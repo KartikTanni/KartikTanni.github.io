@@ -17,15 +17,12 @@ var colorPicker = (function() {
 
         // document.getElementById('text_black_info1').style.color=colors[index];
         // document.getElementById('text_black_info2').style.color=colors[index];
-        document.getElementById('mag_mag').style.color=colors[index];
-        document.getElementById('subtextmagno').style.color=colors[index];
+        document.getElementById('mag_mag').style.color=colors2[index];
+        document.getElementById('subtextmagno').style.color=colors2[index];
          document.getElementById('custard').style.background=colors2[index];
         document.getElementById('cufeinfo').style.color=colors2[index];
         document.getElementById('body').style.background=colors[index];
-        if(index==0)
-        {
-          document.getElementById('cufeinfo').style.color="#ffffff";
-        }
+
         //document.getElementById('body').style.background=colors[index];
          //document.getElementById('grape').style.background=colors2[index];
          // document.getElementById('apple').style.color=colors2[index];
