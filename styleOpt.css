@@ -19,7 +19,7 @@ body{
 	float: left;
 }
 .optHolder{
-	margin-top: 29%;
+	margin-top: 33%;
 }
 .optTxt{
 	font-size: 2.2em;
@@ -32,6 +32,26 @@ body{
 	width: 150px;
 	margin-left: 44.5%;
 	margin-top: 15%;
+}
+.snackBar{
+	position: fixed;
+	z-index: 8;
+	width: 80%;
+	background-color: #323232;
+	height:45px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 10%;
+	color: #FFF;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.10), 0 3px 3px rgba(0,0,0,0.10);
+	font-size: 1vw;
+}
+.noteTxt{
+	font-size: 1.2em;
+	margin-top: -10px;
+}
+.noteHead{
+	color: #e3f43f;
 }
 @media only screen and (max-width: 1000px) {
 	.optA{
@@ -49,5 +69,12 @@ body{
 	}
 	.optHolder{
 		margin-top: 100px;
+	}
+	.snackBar{
+		height: 25px;
+	}
+	.noteTxt{
+		font-size: 2vw;
+		margin-top: -15px;
 	}
 }
