@@ -83,7 +83,7 @@ input[type=text], select, textarea {
 	height:68%;
 	float:left;
 	margin-left: 50px;
-	margin-top: 18vh;
+	margin-top: 8vh;
 	font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width:1000px){
@@ -108,7 +108,7 @@ input[type=text], select, textarea {
  }
 
     .section1{
-		height:120vh;
+		height:130vh;
 	}
     .smallHeading1{
 		display: block;
@@ -198,6 +198,14 @@ input[type=text], select, textarea {
 	height: 100%;
 	margin: 0px;
 	margin-top:-20px;
+}
+.excited{
+	width:50%;
+	height:68%;
+	float:left;
+	margin-left: 50px;
+	margin-top: 15vh;
+	font-family: 'Roboto', sans-serif;
 }
 .smallHeading4{
 	font-family: 'Monoton', cursive;
@@ -618,7 +626,7 @@ input[type=text], select, textarea {
 	margin-top:-20px;
 }
 .smallHeading5{
-	font-family: 'Monoton', cursive;`
+	font-family: 'Monoton', cursive;
 	display: none;
 }
 .cont{
