@@ -334,14 +334,14 @@ and the fest the indomitable phenomenon that it is.</p>
 				<div class='cont' >
 					<form class='contact-form' >
 						<label for="email" style="font-size:2.5em;font-family: 'Josefin Sans', sans-serif;">Email:</label><br><br>
-						<input type="text" placeholder="Your Email ID..."><br><br>
+						<input type="text" placeholder="Your Email ID..." id="cemail"><br><br>
 						<label for="subject" style="font-size:2.5em;font-family: 'Josefin Sans', sans-serif;">Message:</label><br><br>
-						<textarea id="subject" placeholder="We don't get offended...'" style="height:170px"></textarea>
+						<textarea id="subject" placeholder="We don't get offended...'" style="height:170px" id="ctext"></textarea>
 						<br><br>
-						<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-							Submit
-						</button>
 					</form>
+					<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="myFunction()">
+							Submit
+					</button>
 				</div>
 				<div class='heading5'>
 					<div class="ab"style="text-align:left;">
@@ -351,6 +351,7 @@ and the fest the indomitable phenomenon that it is.</p>
 					</div>
 				</div>
 			</div>
+			<div id="snackbar">Feedback Sent!</div>
 			</div>
 		</main>
 	</div>
@@ -359,5 +360,14 @@ and the fest the indomitable phenomenon that it is.</p>
 
 
 		<script src="material.min.js"></script>
+		<script>
+				function myFunction() {
+					var em=document.getElementById("cemail");
+					var ct=document.getElementById("ctext");
+					var x = document.getElementById("snackbar")
+					x.className = "show";
+					setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+				}
+		</script>
 	</body>
 </html>
