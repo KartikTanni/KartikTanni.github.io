@@ -1,4 +1,4 @@
-﻿html{
+html{
   overflow: auto;
 }
 body::before {
@@ -203,6 +203,9 @@ body .demo-blog {
 }
 .demo-blog .jam .mdl-card__media {
   background-image: url('images/jam.jpg');
+}
+.demo-blog .paint-canvas .mdl-card__media {
+  background-image: url('images/paintCanvas.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
