@@ -194,7 +194,7 @@ var resizeCanvas = function() {
   if (!!window.location.pathname.match(/fullcpgrid/)) {
     startFauxClicking();
   }
-  handleInactiveUser();
+  // handleInactiveUser();
 })();
 
 function handleInactiveUser() {
