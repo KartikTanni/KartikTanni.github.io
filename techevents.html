@@ -74,6 +74,7 @@
           document.getElementById("quiz-pop").style.display = 'none';
           document.getElementById("league-of-designers-pop").style.display = 'none';
           document.getElementById("model-making-pop").style.display = 'none';
+	  document.getElementById("paint-canvas").style.display = 'none';
           //document.getElementById("detect-and-avoid-pop").style.display = 'none';
         }
         function showPopup(a){
@@ -109,6 +110,8 @@
 	        document.getElementById("league-of-designers-pop").style.display = 'block';
 	      else if(a=="p")
 	        document.getElementById("model-making-pop").style.display = 'block';
+		else if(a=="q")
+	        document.getElementById("paint-canvas").style.display = 'block';
 
         }
     </script>
@@ -2078,6 +2081,95 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 	              </button>
 	            </a>
 			</div>
+	<div class='eventPop' id='paint-canvas'>
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored closeBtn"  onclick="hideAtFirst()">
+        <i class="material-icons">close</i>
+      </button>
+      <div class='eventPopBanner paint-canvas-pic'>
+        <div class='bannerTxt'><b>Paint the Canvas</b></div>
+      </div>
+      <br />
+      <div class='eventPopupContents'>
+        <!--PART FOR About STARTS HERE-->
+        <div class='eventPopTitle'>About</div>
+        <br />
+        <div class='eventPopupDesc'>
+          Do you love expressing yourself with patterns and colour? ‘Paint the Canvas’ is the perfect event for you. Inspire, get inspired and express yourself
+          on a canvas. Being an excellent opportunity to polish your skills, ‘Paint the Canvas’ is something you don’t want
+          to miss out on. Come now, why wait when you can grab a brush and get started already!
+        </div>
+        <br />
+        <!--PART FOR Rules and guidelines STARTS HERE-->
+        <div class='eventPopTitle'>Rules and Guidelines</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>Time: 3 hours</li>
+            <li>1ft x 1ft Canvas will be provided.</li>
+            <li>Theme will be given on the spot</li>
+            <li>Paper size – A3</li>
+          </ul>
+        </div>
+        <br />
+        <!--PART FOR Judging criteria STARTS HERE-->
+        <div class='eventPopTitle'>Judging Criteria</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>Participants’ paintings will be judged on the basis of the work quality and how much it matches the given topic/theme.</li>
+          </ul>
+        </div>
+        <br />
+        <!--PART FOR General Instructions STARTS HERE-->
+        <div class='eventPopTitle'>General Instructions</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>Every individual/team member taking part in the event must carry a valid college identity card.</li>
+            <li>Event will be cancelled if there are less than three teams/individuals taking part.</li>
+            <li>In case of the event being cancelled, the registration fee can be used to register on-the-spot for another event. </li>
+          </ul>
+        </div>
+        <br />
+        <!--PART FOR Registration Details STARTS HERE-->
+        <div class='eventPopTitle'>Registration Details</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>Registration Fee:</li>
+            <ul>
+              <li>With paints provided: Rs. 250/-</li>
+              <li>Without paints: Rs. 150/-</li>
+            </ul>
+          </ul>
+        </div>
+        <br />
+        <!--PART FOR Price Money STARTS HERE-->
+        <div class='eventPopTitle'>Prize Money</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>1st Prize: Rs. 5,000/-</li>
+            <li>2nd Prize: Rs. 3,000/-</li>
+          </ul>
+        </div>
+        <br />
+        <!--PART FOR Contact Details STARTS HERE-->
+        <div class='eventPopTitle'>Contact Details</div>
+        <br />
+        <div class='eventPopupDesc'>
+          <ul>
+            <li>Event Heads - Harshit - +91 74061 49326</li>
+          </ul>
+        </div>
+        <br />
+      </div>
+      <a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent regBtn">
+          Register
+        </button>
+      </a>
+    </div>
 
 
 
@@ -2426,7 +2518,7 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
               </div>
             </div>
 
-            <div class="mdl-card model-making mdl-cell mdl-cell--12-col">
+            <div class="mdl-card model-making mdl-cell mdl-cell--6-col">
               <div class="mdl-card__media mdl-color-text--grey-50">
                 <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Model Making</a></h3>
               </div>
@@ -2445,10 +2537,29 @@ Then, Magnovite is a wonderful opportunity for showing off your creativity and i
 	            </button>
               </div>
             </div>
-
-
-
-
+	    <div class="mdl-card paint-canvas mdl-cell mdl-cell--6-col">
+          <div class="mdl-card__media mdl-color-text--grey-50">
+            <h3><a href="https://www.townscript.com/e/magnovite-season-7-300223/booking">Paint the Canvas</a></h3>
+          </div>
+          <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+            Do you love expressing yourself with patterns and colour? ‘Paint the Canvas’ is
+            the perfect event for you. Inspire, get inspired and express yourself on a canvas.
+            Being an excellent opportunity to polish your skills, ‘Paint the Canvas’ is
+            something you don’t want to miss out on. Come now, why wait when you can
+            grab a brush and get started already!
+          </div>
+          <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
+            <div class="minilogo"></div>
+            <div>
+              <strong>Magnovite</strong>
+              
+            </div>
+            <div class="mdl-layout-spacer"></div>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect" onclick="showPopup('q')">
+                <i class="material-icons">add</i>
+            </button>
+          </div>
+        </div>
             </div>
             </div>
           </div>
