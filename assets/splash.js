@@ -93,7 +93,7 @@ console.clear();
 var messenger = new Messenger($('#messenger'));
 
 
-if(window.location.hash=="#nosplash")
+if(window.location=="http://magnovite.net/#nosplash")
 {
   hide_splash();
 }
