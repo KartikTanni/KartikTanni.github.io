@@ -93,12 +93,18 @@ console.clear();
 var messenger = new Messenger($('#messenger'));
 
 
-
-$(window).ready(function() {
-  setTimeout(function() {
-    hide_splash();
-  }, 12000);
-});
+if(window.location.hash=="#nosplash")
+{
+  hide_splash();
+}
+else
+{
+  $(window).ready(function() {
+    setTimeout(function() {
+      hide_splash();
+    }, 12000);
+  });
+}
 
 function hide_splash()
 {
