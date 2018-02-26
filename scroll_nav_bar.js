@@ -4,7 +4,8 @@ var section_det=[
   ['Specials','005a31'],
   ['Developers','374258'],
   ['Heads','bc382e'],
-  ['Contact','0f0f0f']
+  ['Contact','0f0f0f'],
+  ['Schedule','00B8D4']
 ];
 
 var ie_i=0;
@@ -14,6 +15,7 @@ $(function () {
     var spe=$('#specials').position().top;
     var dev=$('#developers').position().top;
     var h=$('#heads').position().top;
+    var sche=$('#schedule').position().top;
     var c=$('#contacts').position().top;
   $(".mdl-layout__content").on("scroll", function () {
     var key = 0;
@@ -32,6 +34,9 @@ $(function () {
     }
     if ($(this).scrollTop() >= h) {
       key = 4;
+    }
+    if ($(this).scrollTop() >= sche) {
+      key = 6;
     }
     if ($(this).scrollTop() >= c){
       key = 5;
