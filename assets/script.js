@@ -218,3 +218,35 @@ $( function() {
       });
     } );
 //the beg function ends ---------------------------------------------------------------------------------------------------------------------
+
+//mouse enter thing
+$("#custardmod").mouseenter(function(){
+  AnimateRotate(57,17);
+  $("#back").fadeOut("fast");
+  $("#ectx").fadeIn("fast");
+  $("#stephen").fadeIn("fast");
+  $("#nritta").fadeIn("fast");
+  $("#ecl").fadeIn("fast");
+});
+$("#custardmod").mouseleave(function(){
+  AnimateRotate(17,57);
+  $("#back").fadeIn("fast");
+  $("#ectx").fadeOut("fast");
+  $("#stephen").fadeOut("fast");
+  $("#nritta").fadeOut("fast");
+  $("#ecl").fadeOut("fast");
+});
+function AnimateRotate(d,s){
+    var elem = $("#custard");
+    $({deg: s}).animate({deg: d}, {
+        duration: 500,
+        step: function(now){
+            elem.css({
+                 transform: "rotate(" + now + "deg)"
+            });
+        }
+    });
+}
+setTimeout(function() {
+ $('.loading').fadeOut();
+}, 4000 );

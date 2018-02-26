@@ -2,33 +2,46 @@ var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 var cH;
 var cW;
-var bgColor = "#45ADA8";
+var bgColor = "#6c5b7b";
 var animations = [];
 var circles = [];
 
+/*--------------------Loader---------------------------*/
+var i = 0;
+while(i<5){
+  setTimeout(function(){
+      //alert(i); 
+      document.getElementById("loader").click();
+  }, 1000);
+    i++;
+}
 var colorPicker = (function() {
-  var colors = ["#2f9395", "#363636", "#EF4566", "#355c7d", "#ff8000"];
-    var colors2 = ["#363636", "#ff8000", "#600080", "#EF4566", "#355c7d"];
+  var colors = ["#6c5b7b", "#EF4566", "#355c7d", "#ff8000","#363636"];
+    var colors2 = ["#363636", "#52455e", "#EF4566", "#355c7d","#ff8000"];
   //var colors2 = ["#3f9e99", "#f26876", "#C06D99", "#6C5B8B"];
   var colors1 = ["#000000"];
   var index = 0;
   function next() {
     index = index++ < colors.length-1 ? index : 0;
-
+       
         // document.getElementById('text_black_info1').style.color=colors[index];
         // document.getElementById('text_black_info2').style.color=colors[index];
-        document.getElementById('mag_mag').style.color=colors2[index];
-        document.getElementById('subtextmagno').style.color=colors2[index];
+        document.getElementById('ectx').style.color=colors[index];
+        document.getElementById('nritta').style.fill=colors[index];
+        document.getElementById('back').style.color=colors[index];
+        
+        document.getElementById('mag_mag').style.color=colors[index];
+        document.getElementById('subtextmagno').style.color=colors[index];
          document.getElementById('custard').style.background=colors2[index];
+         document.getElementById('custard1').style.background=colors2[index];
         document.getElementById('cufeinfo').style.color=colors2[index];
-        document.getElementById('body').style.background=colors[index];
 
         //document.getElementById('body').style.background=colors[index];
          //document.getElementById('grape').style.background=colors2[index];
          // document.getElementById('apple').style.color=colors2[index];
          //document.getElementById('mango').style.background=colors2[index];
         //document.getElementById('banana').style.background=colors2[index];
-
+       
        //document.getElementById('gggg').style.color=colors2[0];
     return colors[index];
   }
@@ -194,7 +207,7 @@ var resizeCanvas = function() {
   if (!!window.location.pathname.match(/fullcpgrid/)) {
     startFauxClicking();
   }
-  // handleInactiveUser();
+  handleInactiveUser();
 })();
 
 function handleInactiveUser() {
