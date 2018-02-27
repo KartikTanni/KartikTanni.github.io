@@ -161,7 +161,7 @@ input[type=text], select, textarea {
 }
 @media screen and (max-width:1000px){
     .section3{
-		height:200vh;
+		height:220vh;
 	}
     .smallHeading6{
 		display: block;
