@@ -1,3 +1,20 @@
+$(document).ready(function() {
+  var ua = navigator.userAgent.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i),
+      browser;
+  if (navigator.userAgent.match(/Edge/i) || navigator.userAgent.match(/Trident.*rv[ :]*11\./i)) {
+    browser = "msie";
+  }
+  else {
+    browser = ua[1].toLowerCase();
+  }
+    if (browser=='chrome') {
+      $('.about_circle,.workshop_circle,.login_circle,.event_circle').css('mix-blend-mode','color-burn');
+    }
+    if (browser=='msie') {
+      alert("Try another browser for a better experience");
+         
+    }
+});
 // first script in index wala file
 //Login popup-----------------------------------------------------------------------
 var position;
@@ -250,3 +267,4 @@ function AnimateRotate(d,s){
 setTimeout(function() {
  $('.loading').fadeOut();
 }, 4000 );
+
