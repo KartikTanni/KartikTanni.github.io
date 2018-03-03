@@ -6,7 +6,7 @@ var bgColor = "#6c5b7b";
 var animations = [];
 var circles = [];
 
-/*--------------------Loader---------------------------*/
+
 var i = 0;
 while(i<5){
   setTimeout(function(){
