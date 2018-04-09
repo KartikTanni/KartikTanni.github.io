@@ -6,7 +6,7 @@ var bgColor = "#6c5b7b";
 var animations = [];
 var circles = [];
 
-
+/*--------------------Loader---------------------------*/
 var i = 0;
 while(i<5){
   setTimeout(function(){
@@ -36,7 +36,7 @@ var colorPicker = (function() {
          document.getElementById('custard1').style.background=colors2[index];
         document.getElementById('cufeinfo').style.color=colors2[index];
 
-        document.getElementById('body').style.background=colors[index];
+        //document.getElementById('body').style.background=colors[index];
          //document.getElementById('grape').style.background=colors2[index];
          // document.getElementById('apple').style.color=colors2[index];
          //document.getElementById('mango').style.background=colors2[index];
